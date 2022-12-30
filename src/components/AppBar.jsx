@@ -17,26 +17,18 @@ import Button from '@mui/material/Button';
 import ImageAvatars from './Avatar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
-
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 const theme = createTheme({
     palette: {
       primary: {
-        // Purple and green play nicely together.
-        main: purple[500],
-      },
-      secondary: {
-        // This is green.A700 as hex.
-        main: '#11cb5f',
+        main: '#F0E5D3',
       },
     },
   });
-
-
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 const drawerWidth = 240;
 const navItems = ['Intro', 'Digital Work', 'CV', 'Contact'];
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -44,13 +36,10 @@ function DrawerAppBar(props) {
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
-      </Typography>
-      <Divider />
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', height: 200 }}>
+      
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
@@ -62,12 +51,12 @@ function DrawerAppBar(props) {
       </List>
     </Box>
   );
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   const container = window !== undefined ? () => window().document.body : undefined;
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   return (
     <ThemeProvider theme={theme}>
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex', mb: -8.5 }}>
       <CssBaseline />
       <AppBar component="nav">
         <Toolbar>
@@ -90,7 +79,7 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+              <Button key={item} sx={{ color: '#6A6A6A', fontFamily: 'Montserrat', fontSize: '20px' }}>
                 {item}
               </Button>
             ))}
@@ -124,7 +113,7 @@ function DrawerAppBar(props) {
     </ThemeProvider>
   );
 }
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 DrawerAppBar.propTypes = {
   /**
    * Injected by the documentation to work in an iframe.
