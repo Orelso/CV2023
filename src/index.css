@@ -86,3 +86,25 @@ nav {
 .link-hover::after {
   right: -1.3em;
 }
+/* -------------------------------------------------------------------------------------------------------------------------------------------()------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.code-hover {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+  
+.code-hover:hover::before {
+  content: "<";
+  position: absolute;
+  color: orange;
+  left: 10.5em;
+  top: 0;
+}
+.code-hover:hover::after {
+  content: "/>";
+  position: absolute;
+  color: orange;
+  right: 10.3em;
+  top: 0;
+}

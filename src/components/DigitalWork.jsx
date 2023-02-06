@@ -58,16 +58,14 @@ export default function ResponsiveGrid() {
                   Youtube Clone
                 </a>
               </Typography>
-              {/* <Typography variant='body2' color='text.secondary'>
-               MUI-API-REACT
-              </Typography> */}
             </CardContent>
-            <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+            <CardActions sx={{ backgroundColor: "rgb(165,170,147)"}}>
               <a
                 href='https://github.com/Orelso/Project--YoutubeClone'
                 target='_blank'
                 rel='noreferrer'
-                style={{ textDecoration: "none", color: "#F0E5D3" }}
+                style={{ textDecoration: "none", color: "#F0E5D3",}}
+                className="code-hover"
               >
                 Code
               </a>
