@@ -29,27 +29,31 @@ export default function ResponsiveGrid() {
         columnSpacing={{ xs: 1, sm: 2, md: 3, lg: -75 }}
       >
 {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-        <Grid xs={12} sm={4} md={4} lg={4}>
+<Grid xs={12} sm={4} md={4} lg={4}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://orelso-youtubeclone.netlify.app'
               target='_blank'
               rel='noreferrer'
             >
-              <CardMedia
-                component='img'
-                alt='youtubeclone'
-                height='250'
-                image='https://res.cloudinary.com/orelso/image/upload/v1672139354/Cv%202023/Screenshot_2022-12-27_at_13.02.39_rluvpw.png'
+              <iframe
+                title='youtubeclone'
+                height='280'
+                width='425'
+                src='https://orelso-youtubeclone.netlify.app'
+                frameBorder='0'
+
+
               />
             </a>
-            <CardContent sx={{ backgroundColor: "rgb(165,170,147)" }}>
-              <Typography gutterBottom variant='h5' component='div'>
+            <CardContent sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}>
+              <Typography gutterBottom variant='h5' component='div' style={{textAlign: "center"}}>
                 <a
                   href='https://orelso-youtubeclone.netlify.app'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F3D0B5" }}
+                  style={{ textDecoration: "none", color: "#F3D0B5", display: "inline-block" }}
+                  className="link-hover"
                 >
                   Youtube Clone
                 </a>
@@ -70,6 +74,7 @@ export default function ResponsiveGrid() {
             </CardActions>
           </Card>
         </Grid>
+
 {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
         <Grid xs={12} sm={4} md={4} lg={4}>
           <Card sx={{ maxWidth: 421 }}>
