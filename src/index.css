@@ -69,7 +69,7 @@ nav {
   content: "<";
 }
 .link-hover:hover::after {
-  content: "/>";
+  content: "/ >";
 }
 .link-hover {
   position: relative;
@@ -102,9 +102,9 @@ nav {
   top: 0;
 }
 .code-hover:hover::after {
-  content: "/>";
+  content: " / >";
   position: absolute;
   color: orange;
-  right: 10.3em;
+  right: 10em;
   top: 0;
 }
