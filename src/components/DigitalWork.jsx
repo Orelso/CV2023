@@ -25,13 +25,12 @@ export default function ResponsiveGrid() {
   return (
     <Box sx={{ flexGrow: 1, backgroundColor: "#F0E5D3" }}>
       <Grid
-        marginRight={2}
         container
-        spacing={{ xs: 1, md: 8 }}
+        spacing={6}
         columnSpacing={{ xs: 1, sm: 2, md: 3, lg: -75 }}
       >
 {/* ----------------------------------------------------------------------------------------------------------------------(Youtube Clone)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://orelso-youtubeclone.netlify.app'
@@ -76,7 +75,7 @@ export default function ResponsiveGrid() {
         </Grid>
 
 {/* ------------------------------------------------------------------------------------------------------------------------(Phonebook)-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://cold-shape-4753.fly.dev'
@@ -121,7 +120,7 @@ export default function ResponsiveGrid() {
           </Card>
         </Grid>
 {/* -------------------------------------------------------------------------------------------------------------------------(Country Filter)------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://orelso-country.netlify.app'
@@ -165,7 +164,7 @@ export default function ResponsiveGrid() {
           </Card>
         </Grid>
 {/* -------------------------------------------------------------------------------------------------------------------------(USA Filter State)------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://usafilter.netlify.app'
@@ -209,7 +208,7 @@ export default function ResponsiveGrid() {
           </Card>
         </Grid>
 {/* -----------------------------------------------------------------------------------------------------------------------------(Best NFL Players)--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://nflplayers.netlify.app'
@@ -253,7 +252,7 @@ export default function ResponsiveGrid() {
           </Card>
         </Grid>
 {/* -----------------------------------------------------------------------------------------------------------------------------------(Drawing Pad)--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://canvasdrawingpad.netlify.app'
@@ -296,8 +295,8 @@ export default function ResponsiveGrid() {
             </CardActions>
           </Card>
         </Grid>
-{/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+{/* -----------------------------------------------------------------------------------------------------------------------(Pokemon Jump)--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://orelso-youtubeclone.netlify.app'
@@ -308,7 +307,7 @@ export default function ResponsiveGrid() {
                 title='youtubeclone'
                 height='280'
                 width='425'
-                src='https://orelso-youtubeclone.netlify.app'
+                src='https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png'
                 frameBorder='0'
               />
             </a>
@@ -321,7 +320,7 @@ export default function ResponsiveGrid() {
                   style={{ textDecoration: "none", color: "#F3D0B5", display: "inline-block" }}
                   className="link-hover"
                 >
-                  Youtube Clone
+                  Pokemon Jump
                 </a>
               </Typography>
               <Divider />
@@ -329,7 +328,7 @@ export default function ResponsiveGrid() {
             </CardContent>
             <CardActions sx={{ backgroundColor: "rgb(165,170,147)"}}>
               <a
-                href='https://github.com/Orelso/Project--YoutubeClone'
+                href='https://github.com/Orelso/Project--PokemonJump'
                 target='_blank'
                 rel='noreferrer'
                 style={{ textDecoration: "none", color: "#F0E5D3",}}
@@ -341,10 +340,10 @@ export default function ResponsiveGrid() {
           </Card>
         </Grid>
 {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
-              href='https://orelso-youtubeclone.netlify.app'
+              href='https://orelso-guesstheanimal.netlify.app'
               target='_blank'
               rel='noreferrer'
             >
@@ -352,20 +351,20 @@ export default function ResponsiveGrid() {
                 title='youtubeclone'
                 height='280'
                 width='425'
-                src='https://orelso-youtubeclone.netlify.app'
+                src='https://orelso-guesstheanimal.netlify.app'
                 frameBorder='0'
               />
             </a>
             <CardContent sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}>
               <Typography gutterBottom variant='h5' component='div' style={{textAlign: "center"}}>
                 <a
-                  href='https://orelso-youtubeclone.netlify.app'
+                  href='https://orelso-guesstheanimal.netlify.app'
                   target='_blank'
                   rel='noreferrer'
                   style={{ textDecoration: "none", color: "#F3D0B5", display: "inline-block" }}
                   className="link-hover"
                 >
-                  Youtube Clone
+                  Guess the Animal
                 </a>
               </Typography>
               <Divider />
@@ -373,7 +372,7 @@ export default function ResponsiveGrid() {
             </CardContent>
             <CardActions sx={{ backgroundColor: "rgb(165,170,147)"}}>
               <a
-                href='https://github.com/Orelso/Project--YoutubeClone'
+                href='https://github.com/Orelso/Project--GuessTheAnimal'
                 target='_blank'
                 rel='noreferrer'
                 style={{ textDecoration: "none", color: "#F0E5D3",}}
@@ -385,7 +384,7 @@ export default function ResponsiveGrid() {
           </Card>
         </Grid>
 {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-<Grid xs={12} sm={4} md={4} lg={4}>
+<Grid item xs={12} sm={6} md={6} lg={3}>
           <Card sx={{ maxWidth: 421 }}>
             <a
               href='https://orelso-youtubeclone.netlify.app'
