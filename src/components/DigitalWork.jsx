@@ -24,11 +24,7 @@ import Divider from '@mui/material/Divider';
 export default function ResponsiveGrid() {
   return (
     <>
-      <h1>Hello I am </h1>
-      
     <Box sx={{ flexGrow: 1, backgroundColor: "#F0E5D3" }}>
-    <h1>Hello I am </h1>
-
         <Grid
           container
           spacing={6}

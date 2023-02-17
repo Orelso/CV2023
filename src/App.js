@@ -2,6 +2,8 @@
 import DrawerAppBar from './components/AppBar';
 import Intro from './components/Intro';
 import MediaCard from './components/DigitalWork';
+import Contact from './components/ContactSection';
+import CvReferences from './components/CvRecLetters';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
      <DrawerAppBar />
      <Intro />
      <MediaCard />
+     <CvReferences />
+     <Contact />
     </div>
   );
 }
