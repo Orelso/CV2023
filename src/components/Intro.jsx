@@ -20,6 +20,11 @@ function Intro() {
     <img src="https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png" alt="Girl in a jacket" width="70" height="60"/>
     <img src="https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png" alt="Girl in a jacket" width="70" height="60"/>
     <img src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png" alt="Girl in a jacket" width="70" height="60"/>
+    <img src="https://cdn.dribbble.com/users/103932/screenshots/5657880/screen_shot_2018-12-05_at_10.27.32_pm.png" alt="Girl in a jacket" width="70" height="60"/>
+    <img src="https://citywebconsultants.co.uk/sites/default/files/inline-images/mongo-medium.png" alt="Girl in a jacket" width="70" height="60"/>
+    <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png" alt="Girl in a jacket" width="70" height="60"/>
+    <img src="https://www.svgrepo.com/show/303683/heroku-logo.svg" alt="Girl in a jacket" width="70" height="60"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" alt="Girl in a jacket" width="70" height="60"/>
       </seciton>
       </Paper>
      
