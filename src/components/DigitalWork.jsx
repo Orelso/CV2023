@@ -49,7 +49,7 @@ export default function ResponsiveGrid() {
                   frameBorder='0' />
               </a>
               <CardContent sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}>
-                <Typography gutterBottom variant='h5' component='div' style={{ textAlign: "center" }}>
+                <Typography gutterBottom variant='h5' component='div' style={{ textAlign: "center"}}>
                   <a
                     href='https://orelso-youtubeclone.netlify.app'
                     target='_blank'
@@ -68,7 +68,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--YoutubeClone'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron' }}
                   className="code-hover"
                 >
                   Code
@@ -113,7 +113,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--Phonebook'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3",fontFamily: 'Orbitron' }}
                   className="code-hover"
                 >
                   Code
@@ -156,7 +156,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--CountryFilter'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -199,7 +199,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--USA-State-Filter-API'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -242,7 +242,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--Best-NFL-Players'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3",fontFamily: 'Orbitron' }}
                   className="code-hover"
                 >
                   Code
@@ -285,7 +285,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--Drawing-Pad'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -328,7 +328,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--PokemonJump'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -336,7 +336,7 @@ export default function ResponsiveGrid() {
               </CardActions>
             </Card>
           </Grid>
-          {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+          {/* ----------------------------------------------------------------------------------------------------------(Guess The Animal)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <Card sx={{ maxWidth: 421 }}>
               <a
@@ -371,7 +371,51 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--GuessTheAnimal'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
+                  className="code-hover"
+                >
+                  Code
+                </a>
+              </CardActions>
+            </Card>
+          </Grid>
+          {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
+          <Grid item xs={12} sm={6} md={6} lg={3}>
+            <Card sx={{ maxWidth: 421 }}>
+              <a
+                              href='https://orelso-guesstheanimal.netlify.app'
+
+                target='_blank'
+                rel='noreferrer'
+              >
+                <iframe
+                  title='youtubeclone'
+                  height='280'
+                  width='425'
+                  src='https://orelso-namegenerator.netlify.app'
+                  frameBorder='0' />
+              </a>
+              <CardContent sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}>
+                <Typography gutterBottom variant='h5' component='div' style={{ textAlign: "center" }}>
+                  <a
+                    href='https://orelso-namegenerator.netlify.app'
+                    target='_blank'
+                    rel='noreferrer'
+                    style={{ textDecoration: "none", color: "#F3D0B5", display: "inline-block" }}
+                    className="link-hover"
+                  >
+                    Text Generator
+                  </a>
+                </Typography>
+                <Divider />
+
+              </CardContent>
+              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+                <a
+                  href='https://github.com/Orelso/Project--TextGenerator'
+                  target='_blank'
+                  rel='noreferrer'
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -414,7 +458,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--YoutubeClone'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -457,7 +501,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--YoutubeClone'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -500,50 +544,7 @@ export default function ResponsiveGrid() {
                   href='https://github.com/Orelso/Project--YoutubeClone'
                   target='_blank'
                   rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
-                  className="code-hover"
-                >
-                  Code
-                </a>
-              </CardActions>
-            </Card>
-          </Grid>
-          {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
-          <Grid item xs={12} sm={6} md={6} lg={3}>
-            <Card sx={{ maxWidth: 421 }}>
-              <a
-                href='https://orelso-youtubeclone.netlify.app'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <iframe
-                  title='youtubeclone'
-                  height='280'
-                  width='425'
-                  src='https://orelso-youtubeclone.netlify.app'
-                  frameBorder='0' />
-              </a>
-              <CardContent sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}>
-                <Typography gutterBottom variant='h5' component='div' style={{ textAlign: "center" }}>
-                  <a
-                    href='https://orelso-youtubeclone.netlify.app'
-                    target='_blank'
-                    rel='noreferrer'
-                    style={{ textDecoration: "none", color: "#F3D0B5", display: "inline-block" }}
-                    className="link-hover"
-                  >
-                    Youtube Clone
-                  </a>
-                </Typography>
-                <Divider />
-
-              </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
-                <a
-                  href='https://github.com/Orelso/Project--YoutubeClone'
-                  target='_blank'
-                  rel='noreferrer'
-                  style={{ textDecoration: "none", color: "#F0E5D3", }}
+                  style={{ textDecoration: "none", color: "#F0E5D3", fontFamily: 'Orbitron'}}
                   className="code-hover"
                 >
                   Code
@@ -555,7 +556,7 @@ export default function ResponsiveGrid() {
         <Grid container justifyContent="center" paddingTop={2} paddingBottom={2}>
   <Grid item>
     <Button
-      sx={{ color: '#171515', fontSize: '1.5rem', border: 1, marginRight: 2 }}
+      sx={{ color: '#171515', fontSize: '1.5rem', marginRight: 2, fontFamily: 'Orbitron' }}
       href="https://github.com/Orelso"
       target="_blank"
       startIcon={<GitHubIcon />}

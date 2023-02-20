@@ -13,13 +13,13 @@ function Contact() {
   return (
     <section id="contact">
       <div>
-        <Typography variant="h4" sx={{ textAlign: 'center' }}>
+        <Typography variant="h4" sx={{ textAlign: 'center' , fontFamily: 'Orbitron'}}>
           Lets make some memorable work together...
         </Typography>
       </div>
       <Box sx={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
         <Button
-          sx={{ color: '#171515', fontSize: '2rem' }}
+          sx={{ color: '#171515', fontSize: '2rem', fontFamily: 'Orbitron' }}
           href="https://github.com/Orelso"
           target="_blank"
           startIcon={<GitHubIcon />}
@@ -27,7 +27,7 @@ function Contact() {
           Github
         </Button>
         <Button
-          sx={{ color: '#ffffff', fontSize: '2rem' }}
+          sx={{ color: '#ffffff', fontSize: '2rem', fontFamily: 'Orbitron' }}
           href="https://codepen.io/Orelso"
           target="_blank"
           startIcon={<ViewInArIcon />}
@@ -35,14 +35,14 @@ function Contact() {
           Codepen
         </Button>
         <Button
-          sx={{ fontSize: '2rem' }}
+          sx={{ fontSize: '2rem', fontFamily: 'Orbitron' }}
           href="mailto:orelso25@gmail.com"
           startIcon={<EmailIcon />}
         >
           Mail
         </Button>
         <Button
-          sx={{ color: 'grey', fontSize: '2rem' }}
+          sx={{ color: 'grey', fontSize: '2rem', fontFamily: 'Orbitron' }}
           href="tel:+358451243334"
           startIcon={<PhoneIphoneIcon />}
         >
@@ -57,7 +57,7 @@ function Contact() {
           Whatsapp
         </Button>
         <Button
-          sx={{ color: ' #00acee', fontSize: '2rem' }}
+          sx={{ color: ' #00acee', fontSize: '2rem', fontFamily: 'Orbitron' }}
           href="https://twitter.com/orelsovitam"
           target="_blank"
           startIcon={<TwitterIcon />}
@@ -65,7 +65,7 @@ function Contact() {
           Twitter
         </Button>
         <Button
-          sx={{ color: '#C13584', fontSize: '2rem' }}
+          sx={{ color: '#C13584', fontSize: '2rem', fontFamily: 'Orbitron' }}
           href="https://www.instagram.com/orelso/?hl=en"
           target="_blank"
           startIcon={<InstagramIcon />}

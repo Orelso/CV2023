@@ -11,7 +11,7 @@ function Intro() {
       <Paper sx={{ display: 'flex', flexDirection: 'column', width: '100vw', height: '600px', backgroundColor: 'rgb(165,170,147)' }}>
       <section id="Intro" style={{ fontSize: '4rem', fontWeight: '200', fontStyle: 'italic', color: '#F0E5D3', textAlign: 'center' }}>
           <a  style={{ textDecoration: 'none', color: '#F0E5D3' }}>
-            <h1 className='intro-style' style={{color: 'black', fontFamily: 'Source Code Pro'}}>Hello I am <a id="namestyle" href="https://www.linkedin.com/in/orelso-vitam-56879791">Orelso</a></h1>
+            <h1 className='intro-style' style={{color: 'black'}}>Hello I am <a id="namestyle" href="https://www.linkedin.com/in/orelso-vitam-56879791">Orelso</a></h1>
           </a>
           <p className='intro-style' style={{ marginTop: '1rem', color: 'grey' }}>a web developer</p>
         </section>
