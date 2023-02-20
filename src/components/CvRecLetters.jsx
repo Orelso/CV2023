@@ -14,7 +14,7 @@ export default function CvReferences() {
     link.click();
   };
 
-  const handlePreview = () => {
+  const handleImageClick = () => {
     setShowPreview(true);
   };
 
@@ -23,28 +23,31 @@ export default function CvReferences() {
   };
 
   return (
-    <div>
-      {showPreview ? (
-        <Dialog open={showPreview} onClose={handleClosePreview}>
-          <DialogTitle sx={{ textAlign: 'center', backgroundColor: 'blue' }}>Preview</DialogTitle>
-          <DialogContent>
-            <img class="cv" src="resume.png" alt="javaTpoint" width="540" height="788" />
-          </DialogContent>
-          <Button variant="contained" onClick={handleClosePreview}>
-            Close
-          </Button>
-        </Dialog>
-      ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <img src="resume.png" alt="Download" height="200" width="200" style={{ marginBottom: '10px' }} />
-          <Button variant="contained" onClick={handleDownload}>
+    <div style={{backgroundColor: 'rgb(165,170,147)'}}>
+      <Dialog open={showPreview} onClose={handleClosePreview}>
+        <DialogTitle sx={{ textAlign: 'center', backgroundColor: 'blue' }}>Preview</DialogTitle>
+        <DialogContent>
+          <img class="cv" src="resume.png" alt="javaTpoint" width="540" height="788" />
+        </DialogContent>
+        <Button variant="contained" onClick={handleClosePreview}>
+          Close
+        </Button>
+      </Dialog>
+      <div style={{ display: 'flex', flexDirection: 'row' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+          <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+          <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
             Download
           </Button>
-          <Button variant="contained" onClick={handlePreview} style={{ marginTop: '10px' }}>
-            Preview
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+          <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+          <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+            Download
           </Button>
         </div>
-      )}
+        
+      </div>
     </div>
   );
 }

@@ -16,7 +16,7 @@ function Contact() {
           Lets make some memorable work together...
         </Typography>
       </div>
-      <Box sx={{ display: 'flex', justifyContent: 'center', gap: '6rem', marginTop: '1rem' }}>
+      <Box sx={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
         <Button
           sx={{ color: '#171515', fontSize: '2rem' }}
           href="https://github.com/Orelso"
