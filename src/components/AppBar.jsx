@@ -41,14 +41,14 @@ function DrawerAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', height: 200 }}>
       
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+  {navItems.map((item) => (
+    <ListItem key={item} disablePadding>
+      <ListItemButton sx={{ textAlign: 'center' }} component="a" href={`#${item.toLowerCase()}`}>
+        <ListItemText primary={item} />
+      </ListItemButton>
+    </ListItem>
+  ))}
+</List>
     </Box>
   );
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/

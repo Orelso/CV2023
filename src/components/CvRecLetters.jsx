@@ -38,7 +38,7 @@ export default function CvReferences() {
           Close
         </Button>
       </Dialog>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '20px', paddingBottom: '20px' }}>
   <Button style={{ textAlign: 'center' }} variant="contained" onClick={handleShowImages}>
     {showImages ? "Hide" : "Show Cv/References"}
   </Button>

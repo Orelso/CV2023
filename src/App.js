@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
      <DrawerAppBar />
-     <Intro />
+     <Intro id="intro"/>
      <MediaCard />
      <CvReferences />
      <Contact />

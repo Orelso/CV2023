@@ -2,16 +2,20 @@ import React from 'react'
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
+
 function Intro() {
   return (
-    <Box>
+    <div >
+    <Box >
       <Paper sx={{ display: 'flex', flexDirection: 'column', width: '100vw', height: '800px', backgroundColor: 'rgb(165,170,147)' }}>
-        <section style={{ fontSize: '4rem', fontWeight: '200', fontStyle: 'italic', color: '#F0E5D3', textAlign: 'center' }}>
-          <h1 className='intro-style'>Hello I am <a id="namestyle" href="https://www.linkedin.com/in/orelso-vitam-56879791">Orelso</a></h1>
+      <section id="Intro" style={{ fontSize: '4rem', fontWeight: '200', fontStyle: 'italic', color: '#F0E5D3', textAlign: 'center' }}>
+          <a  style={{ textDecoration: 'none', color: '#F0E5D3' }}>
+            <h1 className='intro-style'>Hello I am <a id="namestyle" href="https://www.linkedin.com/in/orelso-vitam-56879791">Orelso</a></h1>
+          </a>
           <p className='intro-style' style={{ marginTop: '1rem' }}>a web developer</p>
         </section>
 
-        <seciton>
+        <section>
     <img src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png" alt="Girl in a jacket" width="50" height="60"/>
     <img src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png" alt="Girl in a jacket" width="50" height="60"/>
     <img src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png" alt="Girl in a jacket" width="50" height="60"/>
@@ -25,10 +29,11 @@ function Intro() {
     <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png" alt="Girl in a jacket" width="70" height="60"/>
     <img src="https://www.svgrepo.com/show/303683/heroku-logo.svg" alt="Girl in a jacket" width="70" height="60"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" alt="Girl in a jacket" width="70" height="60"/>
-      </seciton>
+      </section>
       </Paper>
      
     </Box>
+    </div>
     
   )
 }
