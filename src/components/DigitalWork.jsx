@@ -552,10 +552,10 @@ export default function ResponsiveGrid() {
             </Card>
           </Grid>
         </Grid>
-        <Grid container justifyContent="center">
+        <Grid container justifyContent="center" paddingTop={2} paddingBottom={2}>
   <Grid item>
     <Button
-      sx={{ color: '#171515', fontSize: '1rem', border: 1 }}
+      sx={{ color: '#171515', fontSize: '1.5rem', border: 1, marginRight: 2 }}
       href="https://github.com/Orelso"
       target="_blank"
       startIcon={<GitHubIcon />}
@@ -564,16 +564,8 @@ export default function ResponsiveGrid() {
       More Digital work
     </Button>
   </Grid>
-  <Grid item>
-    <Button
-      sx={{ color: '#171515', fontSize: '1rem', border: 1 }}
-      href="https://codepen.io/Orelso"
-      target="_blank"
-      startIcon={<ViewInArIcon />}
-    >
-      Codepen
-    </Button>
-  </Grid>
+  
+ 
 </Grid>
       </Box>
       
