@@ -11,6 +11,8 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { textAlign } from "@mui/system";
 import Divider from '@mui/material/Divider';
+import ViewInArIcon from '@mui/icons-material/ViewInAr';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 // const Item = styled(Paper)(({ theme }) => ({
@@ -550,6 +552,31 @@ export default function ResponsiveGrid() {
             </Card>
           </Grid>
         </Grid>
-      </Box></>
+        <Grid container justifyContent="center">
+  <Grid item>
+    <Button
+      sx={{ color: '#171515', fontSize: '1rem', border: 1 }}
+      href="https://github.com/Orelso"
+      target="_blank"
+      startIcon={<GitHubIcon />}
+      variant="contained"
+    >
+      More Digital work
+    </Button>
+  </Grid>
+  <Grid item>
+    <Button
+      sx={{ color: '#171515', fontSize: '1rem', border: 1 }}
+      href="https://codepen.io/Orelso"
+      target="_blank"
+      startIcon={<ViewInArIcon />}
+    >
+      Codepen
+    </Button>
+  </Grid>
+</Grid>
+      </Box>
+      
+      </>
   );
 }

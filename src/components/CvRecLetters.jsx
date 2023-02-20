@@ -6,6 +6,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 
 export default function CvReferences() {
   const [showPreview, setShowPreview] = useState(false);
+  const [showImages, setShowImages] = useState(false);
 
   const handleDownload = () => {
     const link = document.createElement('a');
@@ -22,6 +23,10 @@ export default function CvReferences() {
     setShowPreview(false);
   };
 
+  const handleShowImages = () => {
+    setShowImages(!showImages);
+  }
+
   return (
     <div style={{backgroundColor: 'rgb(165,170,147)'}}>
       <Dialog open={showPreview} onClose={handleClosePreview}>
@@ -33,21 +38,63 @@ export default function CvReferences() {
           Close
         </Button>
       </Dialog>
-      <div style={{ display: 'flex', flexDirection: 'row' }}>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-          <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
-          <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
-            Download
-          </Button>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+  <Button style={{ textAlign: 'center' }} variant="contained" onClick={handleShowImages}>
+    {showImages ? "Hide" : "Show Cv/References"}
+  </Button>
+</div>
+      {showImages &&
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
+              Download
+            </Button>
+          </div>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-          <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
-          <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
-            Download
-          </Button>
-        </div>
-        
-      </div>
+      }
     </div>
   );
 }
