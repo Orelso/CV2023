@@ -53,21 +53,52 @@ export default function CvReferences() {
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
             <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("resume.png")} />
             <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("resume.png")}>
-              Download
+              Cv/Resume
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="CoverLetter.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("CoverLetter.png")}>
+              Cover Letter
             </Button>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
             <img src="RecOli.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
             <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecOli.png")}>
-              Download
+            Recommendation Letter
             </Button>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={handleImageClick} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={handleDownload}>
-              Download
+            <img src="RecOli.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecOli.png")}>
+            Recommendation Letter
             </Button>
           </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="RecRessu.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecRessu.png")}>
+            Recommendation Letter
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="RecChi.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecChi.png")}>
+            Recommendation Letter
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="RecYc.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecYc.png")}>
+            Recommendation Letter
+            </Button>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
+            <img src="RecCri.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
+            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecCri.png")}>
+            Recommendation Letter
+            </Button>
+          </div>
+          
         </div>
       }
     </div>
