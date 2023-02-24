@@ -297,7 +297,7 @@ export default function ResponsiveGrid() {
           <Grid item xs={12} sm={6} md={6} lg={3}>
             <Card sx={{ maxWidth: 421 }}>
               <a
-                href='https://orelso-youtubeclone.netlify.app'
+                href='https://pokemonjump.netlify.app'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -305,13 +305,13 @@ export default function ResponsiveGrid() {
                   title='youtubeclone'
                   height='280'
                   width='425'
-                  src='https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png'
+                  src='https://pokemonjump.netlify.app'
                   frameBorder='0' />
               </a>
               <CardContent sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}>
                 <Typography gutterBottom variant='h5' component='div' style={{ textAlign: "center" }}>
                   <a
-                    href='https://orelso-youtubeclone.netlify.app'
+                    href='https://pokemonjump.netlify.app'
                     target='_blank'
                     rel='noreferrer'
                     style={{ textDecoration: "none", color: "#F3D0B5", display: "inline-block" }}
