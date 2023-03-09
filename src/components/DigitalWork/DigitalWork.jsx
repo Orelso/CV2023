@@ -113,7 +113,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -171,7 +171,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -229,7 +229,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -287,7 +287,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -345,7 +345,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -403,7 +403,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -461,7 +461,7 @@ export default function ResponsiveGrid() {
                   style={{
                     textDecoration: "none",
                     color: "#F0E5D3",
-                    fontFamily: "Orbitron",
+                    fontFamily: "Urbanist",
                   }}
                   className="code-hover"
                 >
@@ -484,7 +484,7 @@ export default function ResponsiveGrid() {
                 color: "#171515",
                 fontSize: "1.5rem",
                 marginRight: 2,
-                fontFamily: "Orbitron",
+                fontFamily: "Urbanist",
               }}
               href="https://github.com/Orelso"
               target="_blank"
