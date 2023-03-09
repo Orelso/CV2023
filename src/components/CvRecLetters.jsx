@@ -92,8 +92,9 @@ export default function CvReferences() {
             backgroundColor: "#DCC9B6",
             color: "#412F25",
             fontSize: "2rem",
+            fontWeight: 300,
             "&:hover": {
-              backgroundColor: "#ffffff",
+              backgroundColor: "#E8E1D8",
               boxShadow: "none",
             },
           }}

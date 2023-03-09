@@ -35,6 +35,125 @@ const projects = [
     imgSrc:
       "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
   },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
+  {
+    title: "Country Filter",
+    url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  },
 ];
 
 const ProjectCards = () => {
@@ -116,8 +235,12 @@ const ProjectCards = () => {
               color: "#412F25",
               backgroundColor: "#DCC9B6",
               fontSize: "1rem",
-              marginRight: 2,
+              marginRight: 6.9,
               fontFamily: "Urbanist",
+              "&:hover": {
+                backgroundColor: "#E8E1D8",
+                boxShadow: "none",
+              },
             }}
             href="https://github.com/Orelso"
             target="_blank"
