@@ -92,6 +92,10 @@ export default function CvReferences() {
             backgroundColor: "#DCC9B6",
             color: "#412F25",
             fontSize: "2rem",
+            "&:hover": {
+              backgroundColor: "#ffffff",
+              boxShadow: "none",
+            },
           }}
         >
           {showImages ? "Hide" : "Show Cv/References"}
@@ -154,6 +158,7 @@ export default function CvReferences() {
                 Recommendation Letter
               </Button>
             </div>
+            {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 
             <div style={cardStyle}>
               <img

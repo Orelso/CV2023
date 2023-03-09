@@ -87,7 +87,7 @@ nav {
 .link-hover::after {
   position: absolute;
   top: 0;
-  color: orange;
+  color: #e8e1d8;
 }
 .link-hover::before {
   left: -1em;
@@ -106,14 +106,14 @@ nav {
 .code-hover:hover::before {
   content: "<";
   position: absolute;
-  color: orange;
+  color: #e8e1d8;
   left: 10.5em;
   top: 0;
 }
 .code-hover:hover::after {
   content: " / >";
   position: absolute;
-  color: orange;
+  color: #e8e1d8;
   right: 10em;
   top: 0;
 }
