@@ -14,7 +14,7 @@ function Contact() {
       <div>
         <Typography
           variant="h4"
-          sx={{ textAlign: "center", fontFamily: "Urbanist" }}
+          sx={{ textAlign: "center", fontFamily: "Urbanist", color: "#412F25" }}
         >
           Lets make some memorable work together...
         </Typography>

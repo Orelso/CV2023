@@ -8,7 +8,10 @@ function App() {
   return (
     <div className="App">
       <DrawerAppBar />
-      <Intro id="intro" />
+      <section id="intro">
+        <Intro />
+      </section>
+
       <MediaCard />
       <CvReferences />
       <Contact />

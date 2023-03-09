@@ -45,9 +45,9 @@ function DrawerAppBar(props) {
             <ListItemButton
               sx={{ textAlign: "center" }}
               component="a"
-              href={`#${item.toLowerCase()}`}
+              href="#intro"
             >
-              <ListItemText primary={item} />
+              <ListItemText primary="Intro" />
             </ListItemButton>
           </ListItem>
         ))}
