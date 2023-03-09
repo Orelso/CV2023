@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogContent from '@mui/material/DialogContent';
-import DialogTitle from '@mui/material/DialogTitle';
+import React, { useState } from "react";
+import Button from "@mui/material/Button";
+import Dialog from "@mui/material/Dialog";
+import DialogContent from "@mui/material/DialogContent";
+import DialogTitle from "@mui/material/DialogTitle";
 
 export default function CvReferences() {
   const [showPreview, setShowPreview] = useState(false);
   const [showImages, setShowImages] = useState(false);
-  const [selectedImage, setSelectedImage] = useState('');
+  const [selectedImage, setSelectedImage] = useState("");
 
   const handleDownload = (imageSrc) => {
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.download = `${imageSrc}.png`;
     link.href = imageSrc;
     link.click();
@@ -22,85 +22,252 @@ export default function CvReferences() {
   };
 
   const handleClosePreview = () => {
-    setSelectedImage('');
+    setSelectedImage("");
     setShowPreview(false);
   };
 
   const handleShowImages = () => {
     setShowImages(!showImages);
-  }
+  };
 
   return (
-    <div style={{backgroundColor: 'rgb(165,170,147)'}}>
-      {showPreview && 
+    <div style={{ backgroundColor: "#9A9684" }}>
+      {showPreview && (
         <Dialog open={showPreview} onClose={handleClosePreview}>
-          <DialogTitle sx={{ textAlign: 'center', backgroundColor: 'blue' }}>Preview</DialogTitle>
+          <DialogTitle sx={{ textAlign: "center", backgroundColor: "#DCC9B6" }}>
+            Preview
+          </DialogTitle>
           <DialogContent>
-            <img class="cv" src={selectedImage} alt="Preview" width="540" height="788" />
+            <img
+              class="cv"
+              src={selectedImage}
+              alt="Preview"
+              width="540"
+              height="788"
+            />
           </DialogContent>
-          <Button variant="contained" onClick={handleClosePreview}>
+          <Button
+            variant="contained"
+            onClick={handleClosePreview}
+            sx={{ backgroundColor: "#9A9684" }}
+          >
             Close
           </Button>
         </Dialog>
-      }
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '20px', paddingBottom: '20px' }}>
-        <Button style={{ textAlign: 'center',  }} variant="contained" onClick={handleShowImages}>
+      )}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+        }}
+      >
+        <Button
+          style={{ textAlign: "center" }}
+          variant="contained"
+          onClick={handleShowImages}
+        >
           {showImages ? "Hide" : "Show Cv/References"}
         </Button>
       </div>
-      {showImages &&
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="resume.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("resume.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("resume.png")}>
+      {showImages && (
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="resume.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("resume.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("resume.png")}
+            >
               Cv/Resume
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="CoverLetter.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("CoverLetter.png")}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="CoverLetter.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("CoverLetter.png")}
+            >
               Cover Letter
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="RecOli.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecOli.png")}>
-            Recommendation Letter
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="RecOli.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("RecOli.png")}
+            >
+              Recommendation Letter
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="RecOli.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecOli.png")}>
-            Recommendation Letter
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="RecOli.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("RecOli.png")}
+            >
+              Recommendation Letter
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="RecRessu.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecRessu.png")}>
-            Recommendation Letter
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="RecRessu.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("RecRessu.png")}
+            >
+              Recommendation Letter
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="RecChi.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecChi.png")}>
-            Recommendation Letter
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="RecChi.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("RecChi.png")}
+            >
+              Recommendation Letter
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="RecYc.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecYc.png")}>
-            Recommendation Letter
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="RecYc.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("RecYc.png")}
+            >
+              Recommendation Letter
             </Button>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginRight: 4 }}>
-            <img src="RecCri.png" alt="Download" height="350" width="280" style={{marginTop: 10, marginBottom: 10, cursor: 'pointer' }} onClick={() => handleImageClick("RecOli.png")} />
-            <Button style={{marginBottom: 10, }} variant="contained" onClick={() => handleDownload("RecCri.png")}>
-            Recommendation Letter
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              marginRight: 4,
+            }}
+          >
+            <img
+              src="RecCri.png"
+              alt="Download"
+              height="350"
+              width="280"
+              style={{ marginTop: 10, marginBottom: 10, cursor: "pointer" }}
+              onClick={() => handleImageClick("RecOli.png")}
+            />
+            <Button
+              style={{ marginBottom: 10 }}
+              variant="contained"
+              onClick={() => handleDownload("RecCri.png")}
+            >
+              Recommendation Letter
             </Button>
           </div>
-          
         </div>
-      }
+      )}
     </div>
   );
 }

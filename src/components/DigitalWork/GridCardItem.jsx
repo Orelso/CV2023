@@ -30,7 +30,7 @@ export function GridCardItem({
         </a>
         <CardContent
           sx={{
-            backgroundColor: "rgb(165,170,147)",
+            backgroundColor: "#9A9684",
             marginTop: "-7px",
           }}
         >
@@ -60,7 +60,7 @@ export function GridCardItem({
         </CardContent>
         <CardActions
           sx={{
-            backgroundColor: "rgb(165,170,147)",
+            backgroundColor: "#9A9684",
           }}
         >
           <a

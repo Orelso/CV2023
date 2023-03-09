@@ -22,8 +22,6 @@ const MY_DIGITAL_WORKS = [
     githubLink: "https://github.com/Orelso/Project--YoutubeClone",
     customCss: css``,
   },
-  //  TODO clean up into array
-
   {
     title: "Youtube Clone",
     iframeLink: "https://orelso-youtubeclone.netlify.app",
@@ -43,7 +41,7 @@ const MY_DIGITAL_WORKS = [
 export default function ResponsiveGrid() {
   return (
     <>
-      <Box sx={{ flexGrow: 1, backgroundColor: "#F0E5D3" }}>
+      <Box sx={{ flexGrow: 1, backgroundColor: "#E8E1D8" }}>
         <Grid
           container
           spacing={6}
@@ -81,7 +79,7 @@ export default function ResponsiveGrid() {
                 />
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -95,7 +93,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -105,14 +103,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--Phonebook"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -139,7 +137,7 @@ export default function ResponsiveGrid() {
                 />
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -153,7 +151,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -163,14 +161,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--CountryFilter"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -197,7 +195,7 @@ export default function ResponsiveGrid() {
                 />
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -211,7 +209,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -221,14 +219,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--USA-State-Filter-API"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -255,7 +253,7 @@ export default function ResponsiveGrid() {
                 />
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -269,7 +267,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -279,14 +277,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--Best-NFL-Players"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -313,7 +311,7 @@ export default function ResponsiveGrid() {
                 />
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -327,7 +325,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -337,14 +335,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--Drawing-Pad"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -371,7 +369,7 @@ export default function ResponsiveGrid() {
                   frameBorder='0' /> */}
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -385,7 +383,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -395,14 +393,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--PokemonJump"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -429,7 +427,7 @@ export default function ResponsiveGrid() {
                 />
               </a>
               <CardContent
-                sx={{ backgroundColor: "rgb(165,170,147)", marginTop: "-7px" }}
+                sx={{ backgroundColor: "#9A9684", marginTop: "-7px" }}
               >
                 <Typography
                   gutterBottom
@@ -443,7 +441,7 @@ export default function ResponsiveGrid() {
                     rel="noreferrer"
                     style={{
                       textDecoration: "none",
-                      color: "#F3D0B5",
+                      color: "#DCC9B6",
                       display: "inline-block",
                     }}
                     className="link-hover"
@@ -453,14 +451,14 @@ export default function ResponsiveGrid() {
                 </Typography>
                 <Divider />
               </CardContent>
-              <CardActions sx={{ backgroundColor: "rgb(165,170,147)" }}>
+              <CardActions sx={{ backgroundColor: "#9A9684" }}>
                 <a
                   href="https://github.com/Orelso/Project--GuessTheAnimal"
                   target="_blank"
                   rel="noreferrer"
                   style={{
                     textDecoration: "none",
-                    color: "#F0E5D3",
+                    color: "#E8E1D8",
                     fontFamily: "Urbanist",
                   }}
                   className="code-hover"
@@ -481,8 +479,9 @@ export default function ResponsiveGrid() {
           <Grid item>
             <Button
               sx={{
-                color: "#171515",
-                fontSize: "1.5rem",
+                color: "#412F25",
+                backgroundColor: "#9A9684",
+                fontSize: "1rem",
                 marginRight: 2,
                 fontFamily: "Urbanist",
               }}

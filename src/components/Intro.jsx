@@ -13,15 +13,13 @@ function Intro() {
             flexDirection: "column",
             width: "100vw",
             height: "600px",
-            backgroundColor: "rgb(165,170,147)",
+            backgroundColor: "#9A9684",
           }}
         >
           <section
             id="Intro"
             style={{
               fontSize: "4rem",
-              // fontWeight: "200",
-              // fontStyle: "italic",
               fontFamily: "Urbanist",
               fontWeight: 300,
               color: "#F0E5D3",
@@ -29,7 +27,7 @@ function Intro() {
             }}
           >
             <a style={{ textDecoration: "none", color: "#F0E5D3" }}>
-              <h1 className="intro-style" style={{ color: "black" }}>
+              <h1 className="intro-style" style={{ color: "#412F25" }}>
                 Hello I am{" "}
                 <a
                   id="namestyle"
@@ -42,13 +40,13 @@ function Intro() {
             </a>
             <p
               className="intro-style"
-              style={{ marginTop: "1rem", color: "grey", fontWeight: 100 }}
+              style={{ marginTop: "-3rem", color: "#E8E1D8", fontWeight: 100 }}
             >
               a web developer
             </p>
           </section>
 
-          <Grid container spacing={12} justifyContent="center">
+          <Grid container spacing={9} justifyContent="center">
             <Grid item>
               <img
                 src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png"
