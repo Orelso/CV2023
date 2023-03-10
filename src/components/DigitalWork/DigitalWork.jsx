@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import {
   Grid,
   Card,
@@ -229,6 +228,18 @@ const projects = [
 const ProjectCards = () => {
   const theme = useTheme();
   const [selectedImgSrc, setSelectedImgSrc] = useState(null);
+  const [openModal, setOpenModal] = useState(false);
+  const [currentProject, setCurrentProject] = useState(null);
+
+  const handleOpenModal = (project) => {
+    setCurrentProject(project);
+    setOpenModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setCurrentProject(null);
+    setOpenModal(false);
+  };
 
   const handleOpen = (imgSrc) => {
     setSelectedImgSrc(imgSrc);
@@ -240,7 +251,7 @@ const ProjectCards = () => {
 
   return (
     <>
-      <Grid container spacing={2} sx={{ padding: theme.spacing(2) }}>
+      <Grid container spacing={8} sx={{ padding: theme.spacing(2) }}>
         {projects.map((project) => (
           <Grid item xs={12} sm={6} md={6} lg={3} key={project.title}>
             <Card sx={{ maxWidth: 421 }}>

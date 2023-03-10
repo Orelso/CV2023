@@ -151,14 +151,6 @@ function Intro() {
                 height="60"
               />
             </Grid>
-            <Grid item>
-              <img
-                src="https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png"
-                alt="ChatGPT logo"
-                width="70"
-                height="60"
-              />
-            </Grid>
           </Grid>
         </Paper>
       </Box>
