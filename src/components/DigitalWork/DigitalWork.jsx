@@ -36,6 +36,13 @@ const projects = [
       "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
   },
   {
+    title: "NFL ChatGPT Bot",
+    // url: "https://orelso-country.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--NFL-AI-Bot",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1678449170/Cv%202023/Screenshot_2023-03-10_at_13.51.38_cdjm5e.png",
+  },
+  {
     title: "USA City Filter",
     url: "https://usafilter.netlify.app/",
     codeUrl: "https://github.com/Orelso/Project--USA-State-Filter-API",
@@ -190,16 +197,23 @@ const projects = [
       "https://res.cloudinary.com/orelso/image/upload/v1678448830/Cv%202023/Screenshot_2023-03-10_at_13.47.01_mykuj2.png",
   },
   {
-    title: "Country Filter",
-    url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    title: "Cuban Food",
+    url: "https://orelso-cubanfood.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CubanFood",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678449512/Cv%202023/Screenshot_2023-03-10_at_13.58.22_ke552b.png",
   },
   {
-    title: "Country Filter",
+    title: "Cuban Food Survey",
+    url: "https://orelso-cubansurvey.netlify.app/",
+    codeUrl: "https://github.com/Orelso/Project--CubanSurvey",
+    imgSrc:
+      "https://res.cloudinary.com/orelso/image/upload/v1678449745/Cv%202023/Screenshot_2023-03-10_at_14.02.14_y6bo0d.png",
+  },
+  {
+    title: "NFL Info",
     url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    codeUrl: "https://github.com/Orelso/Project--NFLinfo",
     imgSrc:
       "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
   },
