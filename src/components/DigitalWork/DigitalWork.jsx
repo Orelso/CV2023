@@ -210,20 +210,20 @@ const projects = [
     imgSrc:
       "https://res.cloudinary.com/orelso/image/upload/v1678449745/Cv%202023/Screenshot_2023-03-10_at_14.02.14_y6bo0d.png",
   },
-  {
-    title: "NFL Info",
-    url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--NFLinfo",
-    imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
-  },
-  {
-    title: "Country Filter",
-    url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
-    imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
-  },
+  // {
+  //   title: "NFL Info",
+  //   url: "https://nflinfo.netlify.app/",
+  //   codeUrl: "https://github.com/Orelso/Project--NFLinfo",
+  //   imgSrc:
+  //     "https://res.cloudinary.com/orelso/image/upload/v1678450015/Cv%202023/Screenshot_2023-03-10_at_14.06.44_c2oxxz.png",
+  // },
+  // {
+  //   title: "Country Filter",
+  //   url: "https://orelso-country.netlify.app",
+  //   codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+  //   imgSrc:
+  //     "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+  // },
 ];
 
 const ProjectCards = () => {
