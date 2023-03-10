@@ -142,7 +142,7 @@ const projects = [
   },
   {
     title: "Magic 8 Ball",
-    url: "https://orelso-magiceightball.netlify.app/",
+    url: "https://orelso-magiceightball.netlify.app",
     codeUrl: "https://github.com/Orelso/Project--Magic8Ball",
     imgSrc:
       "https://res.cloudinary.com/orelso/image/upload/v1678447413/Cv%202023/Screenshot_2023-03-10_at_13.23.23_vcao12.png",
@@ -156,38 +156,38 @@ const projects = [
   },
   {
     title: "Picture Editor",
-    url: "https://orelso-pictureeditor.netlify.app/",
+    url: "https://orelso-pictureeditor.netlify.app",
     codeUrl: "https://github.com/Orelso/Project--PictureEditor",
     imgSrc:
       "https://res.cloudinary.com/orelso/image/upload/v1678448312/Cv%202023/Screenshot_2023-03-10_at_13.38.21_xmphvq.png",
   },
   {
     title: "Rock Paper Scissor",
-    url: "https://orelso-rockpaper.netlify.app/",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    url: "https://orelso-rockpaper.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--RockPaperScissor",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678448436/Cv%202023/Screenshot_2023-03-10_at_13.40.27_ji4ojd.png",
   },
   {
-    title: "Country Filter",
-    url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    title: "Digital Clock",
+    url: "https://orelso-digitalclock.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--Digital-Clock",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678448564/Cv%202023/Screenshot_2023-03-10_at_13.42.34_ldbdow.png",
   },
   {
-    title: "Country Filter",
-    url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    title: "Calculator",
+    url: "https://orelso-calc.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--Calculator",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678448698/Cv%202023/Screenshot_2023-03-10_at_13.44.45_p99g8m.png",
   },
   {
-    title: "Country Filter",
-    url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    title: "Hang-Man",
+    url: "https://orelso-hangman.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--Hangman",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1672144997/Cv%202023/Screenshot_2022-12-27_at_14.42.56_uqt0nu.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678448830/Cv%202023/Screenshot_2023-03-10_at_13.47.01_mykuj2.png",
   },
   {
     title: "Country Filter",
