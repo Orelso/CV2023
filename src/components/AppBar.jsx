@@ -17,6 +17,7 @@ import Button from "@mui/material/Button";
 import ImageAvatars from "./Avatar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { purple } from "@mui/material/colors";
+import { navItems } from "./navItems";
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 const theme = createTheme({
   palette: {
@@ -27,7 +28,6 @@ const theme = createTheme({
 });
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 const drawerWidth = 240;
-const navItems = ["Intro", "Digital Work", "CV", "Contact"];
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 function DrawerAppBar(props) {
   const { window } = props;
@@ -40,12 +40,16 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", height: 200 }}>
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+        {navItems.map(({ title, elementId }) => (
+          <ListItem key={title} disablePadding>
             <ListItemButton
               sx={{ textAlign: "center" }}
               component="a"
-              href="#intro"
+              onClick={() => {
+                document
+                  .querySelector(`#${elementId}`)
+                  ?.scrollIntoView({ behavior: "smooth" });
+              }}
             >
               <ListItemText primary="Intro" />
             </ListItemButton>
@@ -82,9 +86,14 @@ function DrawerAppBar(props) {
               {/* <ImageAvatars /> */}
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
-              {navItems.map((item) => (
+              {navItems.map(({ title, elementId }) => (
                 <Button
-                  key={item}
+                  key={title}
+                  onClick={() => {
+                    document
+                      .querySelector(`#${elementId}`)
+                      ?.scrollIntoView({ behavior: "smooth" });
+                  }}
                   sx={{
                     color: "#6A6A6A",
                     fontFamily: "Urbanist",
@@ -92,7 +101,7 @@ function DrawerAppBar(props) {
                     fontWeight: "300",
                   }}
                 >
-                  {item}
+                  {title}
                 </Button>
               ))}
             </Box>

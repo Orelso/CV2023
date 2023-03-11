@@ -1,20 +1,17 @@
+import { Fragment } from "react";
 import DrawerAppBar from "./components/AppBar";
-import Intro from "./components/Intro";
-import MediaCard from "./components/DigitalWork/DigitalWork";
-import Contact from "./components/ContactSection";
-import CvReferences from "./components/CvRecLetters";
+
+import { navItems } from "./components/navItems";
 
 function App() {
   return (
     <div className="App">
       <DrawerAppBar />
-      <section id="intro">
-        <Intro />
-      </section>
-
-      <MediaCard />
-      <CvReferences />
-      <Contact />
+      {navItems.map(({ Component, title, elementId }) => (
+        <div key={title} id={elementId}>
+          {Component}
+        </div>
+      ))}
     </div>
   );
 }
