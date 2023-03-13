@@ -18,6 +18,7 @@ import ImageAvatars from "./Avatar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { purple } from "@mui/material/colors";
 import { navItems } from "./navItems";
+
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 const theme = createTheme({
   palette: {
@@ -46,12 +47,17 @@ function DrawerAppBar(props) {
               sx={{ textAlign: "center" }}
               component="a"
               onClick={() => {
-                document
-                  .querySelector(`#${elementId}`)
-                  ?.scrollIntoView({ behavior: "smooth" });
+                const isSmallScreen = window.innerWidth <= 600;
+                if (isSmallScreen) {
+                  handleDrawerToggle();
+                } else {
+                  document
+                    .querySelector(`#${elementId}`)
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }
               }}
             >
-              <ListItemText primary="Intro" />
+              <ListItemText primary={title} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -129,9 +135,6 @@ function DrawerAppBar(props) {
         </Box>
         <Box component="main" sx={{ p: 3 }}>
           <Toolbar />
-          {/* <Typography>
-         
-        </Typography> */}
         </Box>
       </Box>
     </ThemeProvider>
@@ -139,10 +142,6 @@ function DrawerAppBar(props) {
 }
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 DrawerAppBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 

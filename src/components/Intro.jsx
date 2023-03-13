@@ -49,6 +49,7 @@ function Intro() {
           <Grid container spacing={9} justifyContent="center">
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png"
                 alt="HTML5 logo"
                 width="50"
@@ -57,6 +58,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png"
                 alt="CSS3 logo"
                 width="50"
@@ -65,6 +67,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png"
                 alt="JavaScript logo"
                 width="50"
@@ -73,6 +76,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
                 alt="React logo"
                 width="70"
@@ -81,6 +85,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png"
                 alt="Mui logo"
                 width="70"
@@ -89,6 +94,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png"
                 alt="Bootstrap logo"
                 width="70"
@@ -97,6 +103,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/T/typescript-logo-B29A3F462D-seeklogo.com.png"
                 alt="TypeScript logo"
                 width="70"
@@ -105,6 +112,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://seeklogo.com/images/P/python-logo-A32636CAA3-seeklogo.com.png"
                 alt="Python logo"
                 width="70"
@@ -113,6 +121,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://cdn.dribbble.com/users/103932/screenshots/5657880/screen_shot_2018-12-05_at_10.27.32_pm.png"
                 alt="Django logo"
                 width="70"
@@ -121,6 +130,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://citywebconsultants.co.uk/sites/default/files/inline-images/mongo-medium.png"
                 alt="MongoDB logo"
                 width="70"
@@ -129,6 +139,7 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png"
                 alt="Tailwind CSS logo"
                 width="70"
@@ -137,16 +148,9 @@ function Intro() {
             </Grid>
             <Grid item>
               <img
+                className="size"
                 src="https://www.svgrepo.com/show/303683/heroku-logo.svg"
                 alt="Heroku logo"
-                width="70"
-                height="60"
-              />
-            </Grid>
-            <Grid item>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png"
-                alt="ChatGPT logo"
                 width="70"
                 height="60"
               />

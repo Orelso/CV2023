@@ -42,11 +42,11 @@ const projects = [
       "https://res.cloudinary.com/orelso/image/upload/v1678449170/Cv%202023/Screenshot_2023-03-10_at_13.51.38_cdjm5e.png",
   },
   {
-    title: "USA City Filter",
-    url: "https://usafilter.netlify.app/",
-    codeUrl: "https://github.com/Orelso/Project--USA-State-Filter-API",
+    title: "Cinematic Adventure",
+    url: "https://cinematicadventure.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--CinematicAdventure",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1678443209/Cv%202023/Screenshot_2023-03-10_at_12.13.02_kojd3d.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678445508/Cv%202023/Screenshot_2023-03-10_at_12.51.30_r4i9aw.png",
   },
   {
     title: "Todo list",
@@ -63,11 +63,11 @@ const projects = [
       "https://res.cloudinary.com/orelso/image/upload/v1678444843/Cv%202023/Screenshot_2023-03-10_at_12.40.32_ydypbe.png",
   },
   {
-    title: "Guess the Number",
-    url: "https://orelso-guessthenumber.netlify.app/",
-    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
+    title: "Blog",
+    url: "https://orelso-blog.netlify.app",
+    codeUrl: "https://github.com/Orelso/Project--Blog",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1678444584/Cv%202023/Screenshot_2023-03-10_at_12.36.13_sjfwcc.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678445772/Cv%202023/Screenshot_2023-03-10_at_12.56.01_k1m7vp.png",
   },
   {
     title: "Pokemon Generator",
@@ -77,18 +77,18 @@ const projects = [
       "https://res.cloudinary.com/orelso/image/upload/v1678445251/Cv%202023/Screenshot_2023-03-10_at_12.47.20_wrhehw.png",
   },
   {
-    title: "Cinematic Adventure",
-    // url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--CinematicAdventure",
+    title: "USA City Filter",
+    url: "https://usafilter.netlify.app/",
+    codeUrl: "https://github.com/Orelso/Project--USA-State-Filter-API",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1678445508/Cv%202023/Screenshot_2023-03-10_at_12.51.30_r4i9aw.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678443209/Cv%202023/Screenshot_2023-03-10_at_12.13.02_kojd3d.png",
   },
   {
-    title: "Blog",
-    // url: "https://orelso-country.netlify.app",
-    codeUrl: "https://github.com/Orelso/Project--Blog",
+    title: "Guess the Number",
+    url: "https://orelso-guessthenumber.netlify.app/",
+    codeUrl: "https://github.com/Orelso/Project--CountryFilter",
     imgSrc:
-      "https://res.cloudinary.com/orelso/image/upload/v1678445772/Cv%202023/Screenshot_2023-03-10_at_12.56.01_k1m7vp.png",
+      "https://res.cloudinary.com/orelso/image/upload/v1678444584/Cv%202023/Screenshot_2023-03-10_at_12.36.13_sjfwcc.png",
   },
   {
     title: "Pokemon Jump",
