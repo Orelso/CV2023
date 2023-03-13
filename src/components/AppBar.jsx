@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
-import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
@@ -14,11 +13,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import ImageAvatars from "./Avatar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { purple } from "@mui/material/colors";
 import { navItems } from "./navItems";
-
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 const theme = createTheme({
   palette: {
@@ -47,14 +43,10 @@ function DrawerAppBar(props) {
               sx={{ textAlign: "center" }}
               component="a"
               onClick={() => {
-                const isSmallScreen = window.innerWidth <= 600;
-                if (isSmallScreen) {
-                  handleDrawerToggle();
-                } else {
-                  document
-                    .querySelector(`#${elementId}`)
-                    ?.scrollIntoView({ behavior: "smooth" });
-                }
+                setMobileOpen(false);
+                document
+                  .querySelector(`#${elementId}`)
+                  ?.scrollIntoView({ behavior: "smooth" });
               }}
             >
               <ListItemText primary={title} />
@@ -127,6 +119,7 @@ function DrawerAppBar(props) {
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: drawerWidth,
+                backgroundColor: "#9A9684",
               },
             }}
           >

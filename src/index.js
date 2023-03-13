@@ -11,11 +11,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
   },
-  // TODO make a details page for each app
-  // {
-  //   path: "/hang-man",
-  //   element: <DetailsPage title={"Hang Man"} />,
-  // },
 ]);
 root.render(
   <React.StrictMode>

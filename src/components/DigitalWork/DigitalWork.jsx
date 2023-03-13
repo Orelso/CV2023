@@ -126,7 +126,7 @@ const projects = [
       "https://res.cloudinary.com/orelso/image/upload/v1678446742/Cv%202023/Screenshot_2023-03-10_at_13.12.14_uhaixr.png",
   },
   {
-    title: "Calculator",
+    title: "Calculator2",
     url: "https://orelso-calculator.netlify.app",
     codeUrl: "https://github.com/Orelso/Project--Calculator2",
     imgSrc:

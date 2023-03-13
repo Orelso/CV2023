@@ -3,6 +3,7 @@ import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
+import DownloadIcon from "@mui/icons-material/Download";
 
 const cardStyle = {
   display: "flex",
@@ -116,6 +117,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("resume.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("resume.png")}
@@ -134,6 +136,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("CoverLetter.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("CoverLetter.png")}
@@ -152,6 +155,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("RecOli.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("RecOli.png")}
@@ -161,7 +165,7 @@ export default function CvReferences() {
             </div>
             {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 
-            <div style={cardStyle}>
+            {/* <div style={cardStyle}>
               <img
                 src="RecOli.png"
                 alt="Download"
@@ -171,13 +175,14 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("RecOli.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("RecOli.png")}
               >
                 Recommendation Letter
               </Button>
-            </div>
+            </div> */}
             {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
             <div style={cardStyle}>
               <img
@@ -189,6 +194,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("RecRessu.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("RecRessu.png")}
@@ -208,6 +214,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("RecChi.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("RecChi.png")}
@@ -227,6 +234,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("RecYc.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("RecYc.png")}
@@ -245,6 +253,7 @@ export default function CvReferences() {
                 onClick={() => handleImageClick("RecCri.png")}
               />
               <Button
+                startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
                 onClick={() => handleDownload("RecCri.png")}
