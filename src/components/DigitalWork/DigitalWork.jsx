@@ -8,7 +8,6 @@ import {
   Divider,
   useTheme,
   Button,
-  Modal,
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -227,26 +226,10 @@ const projects = [
 
 const ProjectCards = () => {
   const theme = useTheme();
-  const [selectedImgSrc, setSelectedImgSrc] = useState(null);
-  const [openModal, setOpenModal] = useState(false);
-  const [currentProject, setCurrentProject] = useState(null);
-
-  const handleOpenModal = (project) => {
-    setCurrentProject(project);
-    setOpenModal(true);
-  };
-
-  const handleCloseModal = () => {
-    setCurrentProject(null);
-    setOpenModal(false);
-  };
+  const [setSelectedImgSrc] = useState(null);
 
   const handleOpen = (imgSrc) => {
     setSelectedImgSrc(imgSrc);
-  };
-
-  const handleClose = () => {
-    setSelectedImgSrc(null);
   };
 
   return (

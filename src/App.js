@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import DrawerAppBar from "./components/AppBar";
 
 import { navItems } from "./components/navItems";
