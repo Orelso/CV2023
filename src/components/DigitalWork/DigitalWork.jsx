@@ -223,7 +223,7 @@ const ProjectCards = () => {
       <Grid container spacing={8} sx={{ padding: theme.spacing(2) }}>
         {projects.map((project) => (
           <Grid item xs={12} sm={6} md={6} lg={3} key={project.title}>
-            <Card sx={{ maxWidth: 421 }}>
+            <Card sx={{ maxWidth: 421, borderRadius: 11 }}>
               <img
                 title={project.title}
                 height="280"
