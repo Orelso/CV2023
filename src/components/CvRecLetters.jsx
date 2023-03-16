@@ -109,18 +109,18 @@ export default function CvReferences() {
             {/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/}
             <div style={cardStyle}>
               <img
-                src="resume.png"
+                src="orelsoresume.png"
                 alt="Download"
                 height="350"
                 width="280"
                 style={imageStyle}
-                onClick={() => handleImageClick("resume.png")}
+                onClick={() => handleImageClick("orelsoresume.png")}
               />
               <Button
                 startIcon={<DownloadIcon />}
                 style={buttonStyle}
                 variant="contained"
-                onClick={() => handleDownload("resume.png")}
+                onClick={() => handleDownload("orelsoresume.png")}
               >
                 Cv/Resume
               </Button>
